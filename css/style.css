@@ -1,0 +1,269 @@
+/* Regular font */
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/ptsans-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Bold font */
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/ptsans-bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Common CSS Start */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+
+.c-padding {
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+header {
+  padding: 20px 0;
+  background-color: #fcdb00;
+}
+
+.nav-c {
+  
+}
+
+.logo {
+  
+}
+
+.menu {
+  
+}
+
+.menu ul li a {
+  margin: 0 35px !important;
+  font-size: 23px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  color: #010101 !important;
+}
+
+.menu ul li a:hover {
+  color: white !important;
+}
+
+.menu ul li:last-child a {
+  padding: 10px !important;
+}
+
+/* slider start */
+.slider {
+  background-color: #fcdb00;
+  padding-bottom: 100px;
+}
+
+.c-ind {
+  bottom: -77px;
+}
+
+.c-ind [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  color: white !important;
+}
+
+.c-ind .active {
+  opacity: 0.48;
+  color: red;
+  .c-ind:hover{
+    background-color:white;}
+}
+
+.s-text {
+  margin-top: 50px;
+}
+
+.s-text h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #010101;
+}
+
+.s-text h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px 0;
+  color: #313841;
+}
+
+.s-text p {
+  font-size: 16px !important;
+  color: #555555;
+  margin-bottom: 35px;
+}
+
+.s-icon {}
+
+.s-icon ul li {
+  margin-right: 30px !important;
+}
+
+.s-icon ul li i {
+  font-size: 42px;
+  color: #010101;
+  transition: 0.33s;
+}
+
+.s-icon ul li i:hover {
+  transform: rotate(20deg);
+}
+
+.s-img {}
+
+.s-img img {}
+
+/* slider end */
+
+/* Feature start */
+.feature {}
+
+.f-item {}
+
+.f-h1 {
+  font-size: 32px !important;
+  font-weight: 700;
+  color: #010101;
+}
+
+.f-p {
+  padding-top: 10px !important;
+  line-height: 28px;
+  color: #313841;
+  font-size: 16px;}
+
+.forex { 
+  margin-top: 70px !important; 
+}
+
+.f-icon {
+}
+
+.f-icon i { 
+  margin-top: 11px;
+  font-size: 40px;
+  color: #010101; 
+  transition: 0.33s;
+}
+
+.f-icon:hover {
+  transform: rotate(20deg);
+}
+
+.f-text {
+}
+
+.f-text h2 { 
+  font-family: 'Poppins', sans-serif; 
+  color: #010101;
+  margin-bottom: 15px;
+}
+
+.f-text p { 
+  letter-spacing: 1px; 
+}
+
+ 
+/* Feature end */
+
+/* contact section start */
+.contact {
+  background-color: #010101;
+}
+
+.yellow {
+  color: #fcdb00;
+}
+
+.eash {
+  color: #898989;
+}
+
+.c-form {
+  background-color: #010101;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.c-input {
+  padding: 15px 20px;
+  height: 55px;
+  font-family: 'Poppins', sans-serif;
+  color: #010101;
+}
+
+.c-btn {
+  padding: 0 30px;
+  width: 100%;
+  height: 55px;
+  background-color: #fcdb00 !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #010101;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.c-btn:hover {
+  background-color: white !important;
+}
+
+.c-icon {}
+
+.c-icon li {
+  padding-right: 25px !important;
+}
+
+.c-icon li:last-child {
+  padding-right: 0;
+}
+
+.c-icon li i {
+  color: #fcdb00;
+  font-size: 42px;
+  transition: .33s;
+}
+
+.c-icon li i:hover {
+  color: white;
+}
+/* contact section end */
+
+/*footer strat*/
+footer{
+  
+  background-color: #010101;
+  padding-bottom: 130px;
+}
+.f-1 {}
+.f-1 address {
+  padding-bottom: 40px !important;
+      text-align: center;
+      color: #fff;
+}
+.true{ margin-top:12px; }
+.f-2 {
+}
+.f-2 p a{ 
+   text-align: center;
+  text-decoration: none;   
+  color: #fff;
+}
+
+
+/*footer end*/

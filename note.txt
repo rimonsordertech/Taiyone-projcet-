@@ -1,0 +1,58 @@
+ font 
+ 'Poppins', sans-serif
+
+ color 
+ black #010101
+ eash #313841 
+ yellow #fcdb00  
+ ash #898989
+ white #ffffff
+
+ media responsive chek
+
+ xxl-1440 check
+ xl-1200 
+ lg-1040
+ md-768
+ sm-576 
+ col-320
+
+ header font size------------ 
+
+ xxl.xl.lg                     md.          sm/col 
+ 	22px 						22px			20px
+
+
+
+
+ 	Header paddnig 
+
+
+ 	xxl.xl.lg                     md.          sm/col 
+ 		20px					 20px			20px
+
+
+
+slider------------------
+			xxl/xl/lg          		 md           sm/col 
+h1				32					32             30			 
+h2	            20                  19             19			
+p               16                  15             16
+padding 70px
+
+
+Feature--------------
+		xxl/xl/lg             md           sm/col 
+pt			100               80               60
+pb          120               100              80
+mt			70px			  50			   30
+h1           32               32               25
+p            20               20               17
+icon 		 50               50               35
+h1           22               22                
+p 			 16               16               16
+
+
+
+
+
